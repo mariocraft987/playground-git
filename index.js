@@ -1,10 +1,12 @@
+console.log('Playground - test')
+
 function checkForm() {
     let username = document.getElementById('username').value;
     let password = document.getElementById('password').value;
-
-    if (username != "") {
+    let email = document.getElementById('email').value;
+    if (username != "", password != "", email != "") {
 document.getElementById('page').innerHTML = '<h2>Welcome ' + username + '!</h2>';
     }else {
-document.getElementById('msg').innerHTML = '<br/>Pls enter a username!';
+document.getElementById('msg').innerHTML = '<br/>Pls fill out the form!!';
     }
 }
