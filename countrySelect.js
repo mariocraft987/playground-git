@@ -244,4 +244,4 @@ const countryOptions = [
 { value: "Zambia", label: "Zambia" },
 { value: "Zimbabwe", label: "Zimbabwe" }
 ];
-document.getElementById('countrySelect') = countryOptions;
+document.getElementById('countrySelect').innerHTML = countryOptions;
