@@ -1,5 +1,7 @@
-console.log('Playground - test')
+d = new Date();
+yearNow = d.getYear;
 
+console.log('Playground - '+yearNow)
 
 function checkForm() {
     let username = document.getElementById('username').value;
